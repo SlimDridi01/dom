@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+img{width: 400px;
+    background: #fff;
+    margin: 30px;
+}
+p{
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin:  auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+padding: 40px;
+}
+.prod{
+    margin-top: 25px;
+background:yellowgreen;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.prod:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+.total{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: greenyellow;
+    height: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+.total div{
+    background: #fff;
+    color: black;
+    width: 100px;
+    height: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
